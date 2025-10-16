@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/hanna/bitcoin/test/functional/test_runner.py", line 960, in <module>
+    main()
+  File "/home/hanna/bitcoin/test/functional/test_runner.py", line 472, in main
+    config.read_file(open(configfile, encoding="utf8"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hanna/bitcoin/test/functional/../config.ini'
